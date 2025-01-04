@@ -1037,6 +1037,29 @@ header .container > ul > li:last-child:hover .mega-menu {
 .pricing .container .plan.advanced {
     top: -20px;
 }
+.pricing .advanced .most-popular {
+    position: absolute;
+    color: white;
+    right: -30px;
+    top: 54px;
+    background-color: var(--main-color);
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+    width: 150px;
+    rotate: 90deg;
+}
+.pricing .advanced .most-popular::after {
+    content: "";
+    position: inherit;
+    top: -1px;
+    right: -1px;
+    width: 0;
+    height: 0;
+    border: 22px solid;
+    border-color: transparent white transparent transparent;
+
+}
 .pricing .plan::before,
 .pricing .plan::after {
     content: "";
@@ -1083,11 +1106,11 @@ header .container > ul > li:last-child:hover .mega-menu {
     color: #777;
     margin-bottom: 20px;
 }
-.pricing .plan div:nth-child(2) p {
+.pricing .plan div.sec-1 p {
     padding: 20px;
     border-top: 1px solid #f6f6f6;
 }
-.pricing .plan div:nth-child(2) p i {
+.pricing .plan div.sec-1 p i {
     margin-right: 10px;
     color: var(--main-color);
     font-size: 20px;
