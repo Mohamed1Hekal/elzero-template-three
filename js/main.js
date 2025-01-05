@@ -1,6 +1,6 @@
 
 // ضع هنا الـ ID الخاص بالمكان الذي تريد التمرير إليه
-const targetId = "stats"; // غير "section2" إلى الـ ID الذي تريده
+const targetId = ""; // غير "section2" إلى الـ ID الذي تريده
 
 // استرجاع الموقع عند تحميل الصفحة
 window.onload = function() {
